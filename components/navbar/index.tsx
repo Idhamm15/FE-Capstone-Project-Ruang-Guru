@@ -8,7 +8,10 @@ import { MdOutlineCategory } from "react-icons/md";
 import { MdMiscellaneousServices } from "react-icons/md";
 import { HiOutlineShoppingBag } from "react-icons/hi2";
 import { CgDetailsMore } from "react-icons/cg";
-import logo from '../../assets/logo_genpro.svg';
+import { TbArticle } from "react-icons/tb";
+import { IoRocketOutline } from "react-icons/io5";
+import { BiSolidContact } from "react-icons/bi";
+import logo from '../../assets/AxietyAlly-logo.png';
 import toggle from '../../assets/toogle.svg';
 import iconUser from '../../assets/produk/icon-user.png';
 
@@ -36,23 +39,23 @@ function Navbar () {
             <nav className='py-9 px-4 z-10 relative'>
                 <div className='container mx-auto'>
                     <div className='flex items-center justify-between'>
-                        {/* <Image src={logo} alt='Logo' className='order-1 sm:order-2' /> */}
-                        <div className='order-1 sm:order-2'>
-                            <h1>AXIETY</h1>
-                        </div>
+                        <Image src={logo} alt='Logo' className='order-1 sm:order-2' width={300} height={200}/>
+                        {/* <div className='order-1 sm:order-2'>
+                            <h1>AxietyAlly</h1>
+                        </div> */}
      
                         <Image src={toggle} alt='Toggle' className='lg:hidden order-2 sm:order-1' onClick={handleToggleClick} />
                         <div className='order-2 hidden lg:block'>
                             <ul className='flex gap-16'>
                                 {/* Belum Login */}
                                 <li className='text-grey font-bold text-sm'>
-                                    <Link href='/'>Beranda</Link>
+                                    <Link href='/'>Home</Link>
                                 </li>
                                 <li className='text-grey font-bold text-sm opacity-50 hover:text-red-800'>
                                     <Link href='/artikel'>Artikel</Link>
                                 </li>
                                 <li className='text-grey font-bold text-sm opacity-50 hover:text-red-800'>
-                                    <Link href='/asisten'>Asisten</Link>
+                                    <Link href='/feature'>Feature</Link>
                                 </li>
                                 <li className='text-grey font-bold text-sm opacity-50 hover:text-red-800'>
                                     <Link href='/contact'>Contact</Link>
@@ -100,21 +103,21 @@ function Navbar () {
                             </Link>
                         </li>
                         <li>
-                            <Link href='/kategori' className='flex justify-center flex-col items-center gap-1 text-ungu'>
-                                <MdOutlineCategory className='text-grey text-2xl opacity-50' />
-                                <span className='text-grey opacity-50 text-base font-normal hover:text-purple-500'>Kategori</span>
-                            </Link>
-                        </li>
-                        <li>
                             <Link href='/artikel' className='flex justify-center flex-col items-center gap-1 text-ungu'>
-                                <MdMiscellaneousServices className='text-grey text-2xl opacity-50' />
+                                <TbArticle className='text-grey text-2xl opacity-50' />
                                 <span className='text-grey opacity-50 text-base font-normal hover:text-purple-500'>Artikel</span>
                             </Link>
                         </li>
                         <li>
-                            <Link href='/promo' className='flex justify-center flex-col items-center gap-1 text-ungu'>
-                                <HiOutlineShoppingBag className='text-grey text-2xl opacity-50' />
-                                <span className='text-grey opacity-50 text-base font-normal hover:text-purple-500'>Promo</span>
+                            <Link href='/feature' className='flex justify-center flex-col items-center gap-1 text-ungu'>
+                                <IoRocketOutline className='text-grey text-2xl opacity-50' />
+                                <span className='text-grey opacity-50 text-base font-normal hover:text-purple-500'>Feature</span>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href='/contact' className='flex justify-center flex-col items-center gap-1 text-ungu'>
+                                <BiSolidContact className='text-grey text-2xl opacity-50' />
+                                <span className='text-grey opacity-50 text-base font-normal hover:text-purple-500'>Contact</span>
                             </Link>
                         </li>
                         <li>

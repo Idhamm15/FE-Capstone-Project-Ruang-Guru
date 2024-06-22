@@ -8,14 +8,6 @@ export default function ArtikelPage() {
   return (
     <>
     <Navbar />
-    <Hero
-      text1="Welcome to our website!"
-      button1="Learn more"
-      title1="Baca Artikel Kesehatan"
-      title2="Find the best products at unbeatable prices."
-      button2="Get Started"
-      button3="Explore" 
-    />
     <Artikels/>
     <Footer/>
     </>
