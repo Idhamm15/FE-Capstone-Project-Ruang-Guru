@@ -1,4 +1,5 @@
 import React from "react";
+import Link from 'next/link';
 
 export const Feature = () => {
     return (
@@ -65,13 +66,13 @@ export const Feature = () => {
               <p className="mb-3 text-sm text-gray-900">
                 Fitur ini berisi kuesioner yang bisa teman-teman isi untuk mendeteksi tingkat kecemasan dan tingkat stress.
               </p>
-              <a
-                href="/vision"
+              <Link
+                href="/test-axiety"
                 aria-label=""
                 className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
                 Learn more
-              </a>
+              </Link>
             </div>
           </div>
           <div className="flex flex-col max-w-md sm:mx-auto sm:flex-row">
@@ -99,13 +100,13 @@ export const Feature = () => {
               <p className="mb-3 text-sm text-gray-900">
                 Fitur ini memungkinkan bisa membantu user mengetahui lebih lanjut terkait dengan informasi menggunakan chat.
               </p>
-              <a
-                href="/chatbot"
+              <Link
+                href="/asisten"
                 aria-label=""
                 className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
                 Learn more
-              </a>
+              </Link>
             </div>
           </div>
           <div className="flex flex-col max-w-md sm:mx-auto sm:flex-row">
@@ -133,13 +134,13 @@ export const Feature = () => {
               <p className="mb-3 text-sm text-gray-900">
                 Fitur ini berisi semua artikel terkait Museum Semedo.
               </p>
-              <a
+              <Link
                 href="/artikel"
                 aria-label=""
                 className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
                 Learn more
-              </a>
+              </Link>
             </div>
           </div>
           <div className="flex flex-col max-w-md sm:mx-auto sm:flex-row">
@@ -167,13 +168,13 @@ export const Feature = () => {
               <p className="mb-3 text-sm text-gray-900">
                 Fitur ini berisi games-games yang bisa membuat teman-teman menjadi rileks dengan memainkannya
               </p>
-              <a
-                href="/ulasan"
+              <Link
+                href="/games-axiety"
                 aria-label=""
                 className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
                 Learn more
-              </a>
+              </Link>
             </div>
           </div>
         </div>
