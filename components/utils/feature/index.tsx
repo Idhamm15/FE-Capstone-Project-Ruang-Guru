@@ -132,7 +132,7 @@ export const Feature = () => {
                 Artikel tentang Axiety
               </h6>
               <p className="mb-3 text-sm text-gray-900">
-                Fitur ini berisi semua artikel terkait Museum Semedo.
+                Fitur ini berisi semua artikel terkait dengan Axiety.
               </p>
               <Link
                 href="/artikel"
