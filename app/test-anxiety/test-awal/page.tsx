@@ -2,7 +2,7 @@ import Navbar from '@/components/navbar';
 import Footer from "@/components/footer";
 import Question from './questions';
 
-export default function TestaxietyPageAwal() {
+export default function TestanxietyPageAwal() {
   const questions = [
     {
       question: 'Merasa gugup, cemas, atau gelisah?',

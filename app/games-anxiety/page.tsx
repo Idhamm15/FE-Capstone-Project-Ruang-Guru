@@ -6,7 +6,7 @@ import candyImage from "../../assets/games/background_candy.jpg";
 import marioImage from "../../assets/games/mario-bg.jpg";
 import paperImage from "../../assets/games/paper.png";
 
-export default function GamesAxietyPage(){
+export default function GamesAnxietyPage(){
   return (
     <>
     <Navbar />
@@ -29,7 +29,7 @@ export default function GamesAxietyPage(){
           <p className="leading-relaxed text-base">
             Mainkan game Rock Paper Scissors agar kamu lebih Rilex
           </p>
-          <Link href="/games-axiety/rock-paper-scissors" className="font-semibold text-indigo-600">
+          <Link href="/games-anxiety/rock-paper-scissors" className="font-semibold text-indigo-600">
             Mainkan Sekarang <span aria-hidden="true">&rarr;</span>
           </Link>
         </div>
@@ -44,7 +44,7 @@ export default function GamesAxietyPage(){
           <p className="leading-relaxed text-base">
             Mainkan game Whac A Mole agar kamu lebih Rilex
           </p>
-          <Link href="/games-axiety/whac-a-mole" className="font-semibold text-indigo-600">
+          <Link href="/games-anxiety/whac-a-mole" className="font-semibold text-indigo-600">
             Mainkan Sekarang <span aria-hidden="true">&rarr;</span>
           </Link>
         </div>
@@ -59,7 +59,7 @@ export default function GamesAxietyPage(){
           <p className="leading-relaxed text-base">
             Mainkan game Candy Crush agar kamu lebih Rilex
           </p>
-          <Link href="/games-axiety/candy-crush" className="font-semibold text-indigo-600">
+          <Link href="/games-anxiety/candy-crush" className="font-semibold text-indigo-600">
             Mainkan Sekarang <span aria-hidden="true">&rarr;</span>
           </Link>
         </div>
