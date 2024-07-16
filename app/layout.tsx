@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/logo-AxietyAlly.png" className="rounded"/> {/* Menambahkan favicon */}
+        <link rel="icon" href="/logo-AxietyAlly.png" className="rounded"/>
       </head>
       <body className={inter.className}>
         {children}

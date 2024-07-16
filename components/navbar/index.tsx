@@ -11,7 +11,7 @@ import { CgDetailsMore } from "react-icons/cg";
 import { TbArticle } from "react-icons/tb";
 import { IoRocketOutline } from "react-icons/io5";
 import { BiSolidContact } from "react-icons/bi";
-import logo from '../../assets/AxietyAlly-logo.png';
+import logo from '../../assets/AxietyAlly-logos.png';
 import toggle from '../../assets/toogle.svg';
 import iconUser from '../../assets/produk/icon-user.png';
 

@@ -36,10 +36,10 @@ export const Feature = () => {
               </svg>
               <span className="relative">Jelajahi</span><br/>
             </span>{' '}
-            Semua Fitur AxietyAlly
+            Semua Fitur AnxietyAlly
           </h2>
           <p className="text-base text-gray-700 md:text-lg">
-            Selamat datang, AxietyAlly merupakan website yang di rancang untuk mengedukasi teman-teman khususnya yang sering merasa cemas (Axiety)
+            Selamat datang, AnxietyAlly merupakan website yang di rancang untuk mengedukasi teman-teman khususnya yang sering merasa cemas (Anxiety)
           </p>
         </div>
         <div className="grid max-w-screen-lg gap-8 row-gap-10 mx-auto lg:grid-cols-2">
@@ -62,12 +62,12 @@ export const Feature = () => {
               </div>
             </div>
             <div>
-              <h6 className="mb-3 text-xl font-bold leading-5">Axiety Test</h6>
+              <h6 className="mb-3 text-xl font-bold leading-5">Anxiety Test</h6>
               <p className="mb-3 text-sm text-gray-900">
                 Fitur ini berisi kuesioner yang bisa teman-teman isi untuk mendeteksi tingkat kecemasan dan tingkat stress.
               </p>
               <Link
-                href="/test-axiety"
+                href="/test-anxiety"
                 aria-label=""
                 className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
@@ -75,6 +75,7 @@ export const Feature = () => {
               </Link>
             </div>
           </div>
+          
           <div className="flex flex-col max-w-md sm:mx-auto sm:flex-row">
             <div className="mr-4">
               <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
@@ -109,6 +110,7 @@ export const Feature = () => {
               </Link>
             </div>
           </div>
+
           <div className="flex flex-col max-w-md sm:mx-auto sm:flex-row">
             <div className="mr-4">
               <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
@@ -129,10 +131,10 @@ export const Feature = () => {
             </div>
             <div>
               <h6 className="mb-3 text-xl font-bold leading-5">
-                Artikel tentang Axiety
+                Artikel tentang Anxiety
               </h6>
               <p className="mb-3 text-sm text-gray-900">
-                Fitur ini berisi semua artikel terkait dengan Axiety.
+                Fitur ini berisi semua artikel terkait dengan Anxiety.
               </p>
               <Link
                 href="/artikel"
@@ -143,6 +145,7 @@ export const Feature = () => {
               </Link>
             </div>
           </div>
+          
           <div className="flex flex-col max-w-md sm:mx-auto sm:flex-row">
             <div className="mr-4">
               <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
@@ -169,7 +172,7 @@ export const Feature = () => {
                 Fitur ini berisi games-games yang bisa membuat teman-teman menjadi rileks dengan memainkannya
               </p>
               <Link
-                href="/games-axiety"
+                href="/games-anxiety"
                 aria-label=""
                 className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >

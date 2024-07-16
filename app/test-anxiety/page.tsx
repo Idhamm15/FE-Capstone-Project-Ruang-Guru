@@ -18,7 +18,11 @@ export default function TestaxietyPage() {
   return (
     <>
     <Navbar />
-    <Artikels title="Test Axiety" articles={articles} />
+    <center className="mb-96">
+      <h1 className="font-bold text-5xl">
+        Coming Soon !!
+      </h1>
+    </center>
     <Footer/>
     </>
   );
